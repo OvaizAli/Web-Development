@@ -1,0 +1,19 @@
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}h1{
+    color: mediumslateblue;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.formBody{
+    background-color: mediumslateblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: white;
+}

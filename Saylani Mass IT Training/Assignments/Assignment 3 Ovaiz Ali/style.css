@@ -1,0 +1,181 @@
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* Done with bootstrap so no use */
+    /* .header1 {
+        padding: 10px;
+        text-align: center;
+        background: royalblue;
+        color: white;
+        font-size: 15px;
+        height: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        justify-items: center;
+    } */
+    
+    .fa {
+        padding: 3px;
+        font-size: 10px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        text-decoration: none !important;
+    }
+    
+    .fa:hover {
+        background: rgb(84, 122, 238);
+        color: white;
+    }
+    
+    .fa-facebook {
+        background: royalblue;
+        color: white;
+        margin-right: 15px;
+    }
+    
+    .fa-twitter {
+        background: royalblue;
+        color: white;
+        margin-right: 15px;
+    }
+    
+    .fa-instagram {
+        background: royalblue;
+        color: white;
+        margin-right: 15px;
+    }
+    
+    .fa-youtube {
+        background: royalblue;
+        color: white;
+        margin-right: 15px;
+    }
+    
+    .fa-whatsapp {
+        background: rgb(45, 231, 45);
+        color: white;
+    }
+    
+    .fa-angle-up {
+        color: white;
+        background-color: black;
+        width: 50px;
+        height: 50px;
+    }
+    /* Done with bootstrap so no use */
+    /* #h1btn {
+        color: black;
+        padding: 2px;
+        font-size: 12px;
+        font-weight: 100;
+    } */
+    
+    .img1 {
+        height: 60px;
+        /* position: relative;
+        right: 1070px;
+        */
+    }
+    /* Done with bootstrap so no use */
+    /* .header2 {
+        text-align: center;
+        background: white;
+        color: white;
+        font-size: 15px;
+        display: flex;
+        padding-top: 30px;
+        justify-content: space-evenly;
+    }
+     */
+    
+    #h2btn {
+        /* padding: 10px; */
+        font-size: 12px;
+        font-weight: 200px;
+        /* border-radius: 30px; */
+        /* background: transparent; */
+        /* margin-right: 15px; */
+        color: white;
+        background: gold;
+    }
+    
+    #h2btn:hover {
+        background: hotpink;
+        color: white;
+    }
+    
+    .hImage {
+        height: 600px;
+        width: 100%;
+        border-radius: 0;
+    }
+    
+    .inStart {
+        color: royalblue;
+        font-weight: 700;
+    }
+    
+    .inEnd {
+        color: green;
+        font-weight: 700;
+    }
+    
+    #about {
+        padding: 80px;
+    }
+    
+    .iDiv {
+        margin-left: 40px;
+        margin-right: auto;
+    }
+    
+    .bBar {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    /* Change color of dropdown links on hover */
+    
+    .dropdown-content a:hover {
+        background-color: royalblue;
+        color: white;
+    }
+    /* Show the dropdown menu on hover */
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    /* Done with bootstrap so no use */
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    /* .active1 {
+        padding: 10px;
+        font-size: 12px;
+        font-weight: 200px;
+        border-radius: 30px;
+        background: transparent;
+        margin-right: 15px;
+        color: black;
+        background: royalblue;
+        color: white;
+    } */
