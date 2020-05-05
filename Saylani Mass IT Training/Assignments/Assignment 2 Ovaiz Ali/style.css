@@ -1,19 +1,32 @@
+*{
+    padding: 5px;
+}
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
-}h1{
+    width: 50%;
+}
+.center1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
     color: mediumslateblue;
     text-align: center;
     text-decoration: underline;
 
 }
-.formBody{
+table{
     background-color: mediumslateblue;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
 }
+textarea{
+    height: 40px;
+}
+body > p{
+    text-align: center;
+}
+
