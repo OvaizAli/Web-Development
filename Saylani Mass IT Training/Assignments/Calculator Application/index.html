@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Application</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <table>
+            <tr>
+                <input id="result" type="text">
+            </tr>
+            <tr>
+                <td>
+                    <button class="cBtn" onclick="clearResult()">
+                        <img style="width:48px" src="./images/c.png" alt="">
+                    </button>
+                </td>
+                <td>
+                    <button class="cBtn" onclick="deleteNumber()">
+                        <img style="width:48px" src="./images/delete.png" alt="">
+                    </button>
+                </td>
+                <td>
+                    <button class="oBtn" onclick="getNumber('%')">
+                        <img style="width:48px" src="./images/percent-sign.png" alt="">
+                    </button>
+                </td>
+                <td>
+                    <button class="oBtn" onclick="getNumber('/')">
+                        <img style="width:48px" src="./images/divide.png" alt="">
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="cBtn" onclick="getNumber('7')">
+                        <img style="width:48px" src="./images/icons8-7-key-100.png" alt="">
+                    </button>
+                </td>
+                <td>
+                    <button class="cBtn" onclick="getNumber('8')">
+                        <img style="width:48px" src="./images/icons8-8-key-100.png" alt="">
+                    </button>
+                </td>
+                <td>
+                    <button class="oBtn" onclick="getNumber('9')">
+                        <img style="width:48px" src="./images/icons8-9-key-100.png" alt="">
+                    </button>
+                </td>
+                <td>
+                    <button class="oBtn" onclick="getNumber('*')">
+                        <img style="width:48px;" src="./images/multiply-mathematical-sign.png" alt="">
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="cBtn" onclick="getNumber('4')">
+                        <img style="width:48px" src="./images/icons8-4-key-100.png" alt="">
+                    </button>
+                </td>
+                <td>
+                    <button class="cBtn" onclick="getNumber('5')">
+                        <img style="width:48px" src="./images/icons8-5-key-100.png" alt="">
+                    </button>
+                </td>
+                <td>
+                    <button class="oBtn" onclick="getNumber('6')">
+                        <img style="width:48px" src="./images/icons8-6-key-100.png" alt="">
+                    </button>
+                </td>
+                <td>
+                    <button class="oBtn" onclick="getNumber('-')">
+                        <img style="width:48px;" src="./images/minus-sign.png" alt="">
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="cBtn" onclick="getNumber('1')">
+                        <img style="width:48px" src="./images/icons8-1-key-100.png" alt="">
+                    </button>
+                </td>
+                <td>
+                    <button class="cBtn" onclick="getNumber('2')">
+                        <img style="width:48px" src="./images/icons8-2-key-100.png" alt="">
+                    </button>
+                </td>
+                <td>
+                    <button class="oBtn" onclick="getNumber('3')">
+                        <img style="width:48px" src="./images/icons8-3-key-100.png" alt="">
+                    </button>
+                </td>
+                <td>
+                    <button class="oBtn" onclick="getNumber('+')">
+                        <img style="width:48px;" src="./images/plus-positive-add-mathematical-symbol.png" alt="">
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="cBtn">
+                        <img style="width:48px" src="./images/icons8-plus-minus-100.png" alt="">
+                    </button>
+                </td>
+                <td>
+                    <button class="cBtn" onclick="getNumber('0')">
+                        <img style="width:48px" src="./images/icons8-0-key-100.png" alt="">
+                    </button>
+                </td>
+                <td>
+                    <button class="oBtn" onclick="getNumber('.')">
+                        <img style="width:48px" src="./images/icons8-new-moon-50.png" alt="">
+                    </button>
+                </td>
+                <td>
+                    <button class="oBtn"onclick="getResult()">
+                        <img style="width:48px;" src="./images/equal-mathematical-sign.png" alt="">
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
