@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 52-57</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <p id="p1">Hi, I am Ovaiz Ali</p>
+        <button onclick="zoomIn()">+</button>
+        <button onclick="zoomOut()">-</button>
+    </div>
+    <script>
+        var x = 10;
+        var p1 = document.getElementById("p1");
+        function zoomIn(){
+            x = x + 10; 
+            p1.style.fontSize = x + 'px';
+        }
+        function zoomOut(){
+            x = x - 10; 
+            p1.style.fontSize = x + 'px';
+        }
+    </script>
+</body>
+</html>
