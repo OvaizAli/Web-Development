@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 43-48</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <p id="display">0</p>
+        <button onclick="increment()">Increment</button>
+        <button onclick="decrement()">Decrement</button>
+    </div>
+    <script>
+        var clicks = 0;
+        function increment(){
+            clicks += 1;
+            document.getElementById("display").innerHTML = clicks;
+        }
+        function decrement(){
+            clicks -= 1;
+            if(clicks <= 0){
+                clicks = 0;
+            }
+            document.getElementById("display").innerHTML = clicks;
+        }
+    </script>
+</body>
+</html>
