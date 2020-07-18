@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 49-52</title>
+</head>
+<body>
+    <form id="sForm" onSubmit="checkEmail('email');checkName('name');checkCell('cell');">
+        Name*:&nbsp;&nbsp;
+        <input type="text" id="name">
+        <br><br>
+        Email*:&nbsp;&nbsp;
+        <input type="text" id="email">
+        <br><br>
+        Cell no*:
+        <input type="text" id="cell">
+        <br><br>
+        <input style="margin-left: 100px;" type="submit" value="Submit">
+    </form>
+    <script>
+        function checkName(fieldId){
+            if(document.getElementById(fieldId).value === ""){
+                alert("Name required");
+            }
+        }
+        function checkEmail(fieldId){
+            if(document.getElementById(fieldId).value === ""){
+                alert("Email address required");
+            }
+        }
+        function checkCell(fieldId){
+            if(document.getElementById(fieldId).value === ""){
+                alert("Cellphone number required");
+            }else{
+                display();
+            }
+        }
+        function display(){
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var cell = document.getElementById('cell').value;
+            document.writeln("Name entered in the form was " + name + "<br>");
+            document.writeln("Email entered in the form was " + email + "<br>");
+            document.writeln("Cellphone number entered in the form was " + cell + "<br>");
+        }
+    </script>
+</body>
+</html>
