@@ -5,9 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stopwatch Application</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./app.js"></script>
 </head>
 <body>
-    
+    <div>
+        <h2>Stop Watch</h2>
+    </div>
+    <div>
+        <h1 id="min">0</h1>
+        <h1 id="sec">0</h1>
+        <h1 id="msec">0</h1>
+    </div>
+    <div>
+        <button onclick="start(); this.disabled = true" id="start">Start</button>
+        <button onclick="pause();this.disabled = true" id="pause">Pause</button>
+        <button onclick="reset();this.disabled = true" id="reset">Reset</button>
+    </div>
+
+    <script src="./app.js"></script>
 </body>
 </html>

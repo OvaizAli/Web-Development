@@ -1,0 +1,12 @@
+h1{
+    display: inline-block;
+    background-color: white;
+    width: 15%;
+}
+body{
+    text-align: center;
+    background-color: black;
+}
+h2{
+    color: gold;
+}
