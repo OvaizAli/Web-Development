@@ -1,0 +1,29 @@
+
+body{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.ToDo{
+    text-align: center;
+    color:gold;
+}
+li{
+    list-style-type: none;
+    border-bottom: 1px groove honeydew;
+    margin: 5px;
+}
+.list-div{
+    margin: 10px auto auto auto!important;
+    width: 50%;
+}
+button{
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    color: black;
+    background-color:springgreen;
+}
+button:hover{
+    background-color:rgb(111, 248, 179);
+}
