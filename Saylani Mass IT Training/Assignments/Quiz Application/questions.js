@@ -45,7 +45,7 @@ const quiz = [
         answer: 0
     },
     {
-        q:"Who is the Captain of Pakistan tam in Tes Cricket?",
+        q:"Who is the Captain of Pakistan team in Test Cricket?",
         options:['Babar Azam','Sarfaraz Ahmed','Azhar Ali','Imran Khan Jr'],
         answer: 2
     }
