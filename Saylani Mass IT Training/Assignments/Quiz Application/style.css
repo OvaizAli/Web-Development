@@ -7,8 +7,9 @@
 body{
     margin: 0;
     font-size: 16px;
-    background-color: #009688;
+    background-color: #1976d2;
     font-weight: 400;
+    font-family: sans-serif;
 }
 .custom-box{
     max-width: 700px;
@@ -59,7 +60,7 @@ body{
 }
 .btn{
     padding: 15px 45px;
-    background-color: #009688;
+    background-color: #1976d2;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -68,7 +69,7 @@ body{
     display: inline-block;
 }
  .quiz-box .question-number{
-     color: #009688;
+     color: #1976d2;
      font-weight: 600;
      border-bottom: 1px solid #cccccc;
      padding-bottom: 10px;
@@ -194,7 +195,7 @@ animation: slideInLeft 0.5s ease forwards;
  .result-box h1{
      font-size: 36px;
      line-height: 42px;
-     color: #009688;
+     color: #1976d2;
  }
  .result-box table{
     width: 100%;
