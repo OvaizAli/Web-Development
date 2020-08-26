@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-database.js"></script>
+   <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script>
+    // Your web app's Firebase configuration
+        var firebaseConfig = {
+        apiKey: "AIzaSyCmOc7c0g687sakSQVca7UkYxu-V1Sn874",
+        authDomain: "todo-app-6ef19.firebaseapp.com",
+        databaseURL: "https://todo-app-6ef19.firebaseio.com",
+        projectId: "todo-app-6ef19",
+        storageBucket: "todo-app-6ef19.appspot.com",
+        messagingSenderId: "442235637393",
+        appId: "1:442235637393:web:7cb184b0e1db7a270c3930"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <title>ToDo App</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>ToDo App-Firebase</h1>
+    </div>
+
+    <div class="app-box">
+        <div class="ToDo-input">
+            <input type="text" id="ToDo-item">
+        </div>
+        <br>
+        <div class="btn-group-input">
+            <button onclick="addItem()"> 
+                Add
+                <span class="fa fa-plus-circle"></span>
+            </button>
+            <button onclick="deleteAll()"> 
+                Delete All
+                <span class="fa fa-ban"></span>
+            </button>
+        </div>
+
+        <br><br>
+
+        <div>
+            <ul id="ToDo-list">
+
+            </ul>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

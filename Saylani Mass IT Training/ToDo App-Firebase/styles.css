@@ -1,0 +1,36 @@
+body{
+    background: -webkit-gradient(linear, left top, left bottom, from(#d81b60), to(#d05ce3)) fixed;
+}
+.heading{
+    text-align: center;
+}
+.ToDo-input, .btn-group-input{
+    text-align: center;
+}
+input[type=text] {
+    width: 25%;
+    padding: 12px 20px;
+    transition: width 0.4s ease-in-out;
+  }
+input[type=text]:focus {
+    width: 40%;
+    padding: 12px 20px;
+} 
+.ToDo-box{
+    margin: 0px auto 10px;
+    background-color: #ffc4ff;
+    width: 70%;
+    padding: 15px;
+    border-radius: 20px;
+}
+ul{
+    list-style-type: none;
+}
+.btn-group-ToDo-item{
+    float: right;
+    margin-left: 5px;
+    border: none;
+    border-radius: 40px;
+    padding: 3px;
+    background-color: white;
+}
