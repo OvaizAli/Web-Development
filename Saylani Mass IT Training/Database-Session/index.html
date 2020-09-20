@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Session</title>
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-database.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyAzh6IhqVsAt1oKr1gdMQ5kBdRpIjss6L4",
+          authDomain: "database-session-smit.firebaseapp.com",
+          databaseURL: "https://database-session-smit.firebaseio.com",
+          projectId: "database-session-smit",
+          storageBucket: "database-session-smit.appspot.com",
+          messagingSenderId: "954715774685",
+          appId: "1:954715774685:web:ca8c443fd2f109ef0c4534"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+</head>
+<body>
+    <div>
+        <input id="name" type="text" placeholder="name">
+        <input id="roll" type="text" placeholder="roll">
+        <br>
+        <br>
+        <button onclick="saveData()">Save Data</button>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
