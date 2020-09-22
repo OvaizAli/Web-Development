@@ -1,0 +1,91 @@
+body{
+    background-color: springgreen; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, aqua ,springgreen );
+}
+#chat-box{
+    background-color: crimson;
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 22px;
+    box-shadow: 10px 10px 8px #888888;
+}
+#chat-header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 18px !important;
+    border-top-right-radius: 18px !important;
+    position: absolute;
+    width: 100%;
+    top: 1px;
+}
+#head-text{
+    position: relative;
+    top: 50%;
+    transform: translateY(20%);
+    text-align: center;
+}
+
+#chat-bottom{
+    color: white;
+    text-align: center;
+    border-radius: 18px;
+    position: absolute;
+    top: 91.5%;
+    transform: translateY(15%);
+}
+input{
+    border-bottom-left-radius: 18px !important;
+}
+button.btn{
+    border-bottom-right-radius: 18px !important;
+}
+#chat-area{
+    position: relative;
+    top: 11%;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li{
+    display:inline-block;
+    clear: both;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  .received{
+    background: #eee;
+    float: left;
+  }
+  
+  .sent{
+    float: right;
+    background: #0084ff;
+    color: #fff;
+  }
+  
+  .received + .sent{
+    border-bottom-right-radius: 5px;
+  }
+  
+  .sent + .sent{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .sent:last-of-type {
+    border-bottom-right-radius: 30px;
+  }
