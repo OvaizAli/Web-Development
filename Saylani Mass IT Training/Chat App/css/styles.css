@@ -1,6 +1,6 @@
 body{
-    background-color: springgreen; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right, aqua ,springgreen );
+    background-color: springgreen !important; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, aqua ,springgreen ) !important;
 }
 #chat-box{
     background-color: crimson;
@@ -30,6 +30,9 @@ body{
     top: 50%;
     transform: translateY(20%);
     text-align: center;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
 }
 
 #chat-bottom{
@@ -49,6 +52,8 @@ button.btn{
 #chat-area{
     position: relative;
     top: 11%;
+    overflow: scroll!important;
+    height: 87%;
 }
 
 ul{
@@ -88,4 +93,20 @@ ul{
   
   .sent:last-of-type {
     border-bottom-right-radius: 30px;
+  }
+
+  .sent-btn{
+    float: right;
+    background: #0084ff;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    padding: 5px;
+  }
+  .received-btn{
+    background: #eee;
+    float: right;
+    border: none;
+    border-radius: 40px;
+    padding: 5px;
   }
